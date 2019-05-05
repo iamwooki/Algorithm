@@ -47,10 +47,7 @@ int bfs(){
     }
     
     //익어있는 토마토가 없어서 모두 익지 못하는 상황
-    if(q.empty()){
-        cout<<"토마토가 없어서 익지 못하는 상황";
-        return -1;
-    }
+    if(q.empty()) return -1;
     
     //실질적인 동작
     while(!q.empty()){
@@ -75,11 +72,9 @@ int bfs(){
     
     //아직 방문하지 못한 곳이 있다면
     //토마토가 모두 익지 못하는 상황
-    for(int i=1;i<=M;++i){
-        for(int j=1;j<=N;++j){
+    for(int i=1;i<=M;++i)
+        for(int j=1;j<=N;++j)
             if(arr[i][j]==0) return -1;
-        }
-    }
     
     //몇번만에 넘어가는지
     return max_cnt;
