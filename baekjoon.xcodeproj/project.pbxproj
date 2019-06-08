@@ -7,7 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		7C194A26229BD098005FF641 /* 11047.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 7C194A25229BD098005FF641 /* 11047.cpp */; };
+		7CEF561322ABCF620050073D /* 1010.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 7CEF561222ABCF620050073D /* 1010.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -23,9 +23,9 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
-		7C194A25229BD098005FF641 /* 11047.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = 11047.cpp; sourceTree = "<group>"; };
 		7C719F5E227728B800BD0B81 /* baekjoon */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = baekjoon; sourceTree = BUILT_PRODUCTS_DIR; };
 		7C719F6822772DB600BD0B81 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		7CEF561222ABCF620050073D /* 1010.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = 1010.cpp; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,7 +59,7 @@
 		7C719F60227728B800BD0B81 /* baekjoon */ = {
 			isa = PBXGroup;
 			children = (
-				7C194A25229BD098005FF641 /* 11047.cpp */,
+				7CEF561222ABCF620050073D /* 1010.cpp */,
 			);
 			path = baekjoon;
 			sourceTree = "<group>";
@@ -120,7 +120,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				7C194A26229BD098005FF641 /* 11047.cpp in Sources */,
+				7CEF561322ABCF620050073D /* 1010.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
