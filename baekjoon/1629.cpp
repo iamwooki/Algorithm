@@ -20,12 +20,11 @@ long long power(int a, int b){
     }
 }
 
-
 int main()
 {
     cin >> A >> B >> C;
     cout << power(A%C, B) % C << endl;
-    
+    //cout<<5*5*5*5%4<<" "<<(5%4)*(5%4)*(5%4)*(5%4)%4;
     
     return 0;
 }
