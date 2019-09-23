@@ -1,6 +1,6 @@
 //
 //  1926.cpp
-//  baekjoon
+//  SWexpertAcademy
 //
 //  Created by HyunWook Hong on 23/09/2019.
 //  Copyright © 2019 HyunWook Hong. All rights reserved.
