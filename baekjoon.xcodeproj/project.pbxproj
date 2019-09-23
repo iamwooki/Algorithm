@@ -7,7 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		7C3BFB0C22CDD7950087ECB1 /* 1966.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 7C3BFB0B22CDD7950087ECB1 /* 1966.cpp */; };
+		7C7AF8712338ED4F00BEE370 /* 1926.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 7C7AF8702338ED4F00BEE370 /* 1926.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -23,9 +23,9 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
-		7C3BFB0B22CDD7950087ECB1 /* 1966.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = 1966.cpp; sourceTree = "<group>"; };
 		7C719F5E227728B800BD0B81 /* baekjoon */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = baekjoon; sourceTree = BUILT_PRODUCTS_DIR; };
 		7C719F6822772DB600BD0B81 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		7C7AF8702338ED4F00BEE370 /* 1926.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = 1926.cpp; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -42,6 +42,7 @@
 		7C719F55227728B800BD0B81 = {
 			isa = PBXGroup;
 			children = (
+				7C7AF86F2338ED3A00BEE370 /* swexpertacademy */,
 				7C719F6822772DB600BD0B81 /* README.md */,
 				7C719F60227728B800BD0B81 /* baekjoon */,
 				7C719F5F227728B800BD0B81 /* Products */,
@@ -59,9 +60,16 @@
 		7C719F60227728B800BD0B81 /* baekjoon */ = {
 			isa = PBXGroup;
 			children = (
-				7C3BFB0B22CDD7950087ECB1 /* 1966.cpp */,
 			);
 			path = baekjoon;
+			sourceTree = "<group>";
+		};
+		7C7AF86F2338ED3A00BEE370 /* swexpertacademy */ = {
+			isa = PBXGroup;
+			children = (
+				7C7AF8702338ED4F00BEE370 /* 1926.cpp */,
+			);
+			path = swexpertacademy;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -120,7 +128,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				7C3BFB0C22CDD7950087ECB1 /* 1966.cpp in Sources */,
+				7C7AF8712338ED4F00BEE370 /* 1926.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
